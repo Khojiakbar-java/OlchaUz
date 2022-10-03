@@ -28,7 +28,7 @@ public class Main implements Constants {
     public static void main(String[] args) {
         LocalDateTime localDateTime = LocalDateTime.now();
         DateTimeFormatter thisTime = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        System.out.println();
+        System.out.println("\n\n");
         String formattedDate = localDateTime.format(thisTime);
 
         System.out.println("\n\n");
