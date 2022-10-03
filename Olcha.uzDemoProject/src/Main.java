@@ -7,7 +7,7 @@ import service.CategoryService;
 import service.ProductService;
 import service.UserSerivice;
 
-import java.io.File;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -28,6 +28,7 @@ public class Main implements Constants {
     public static void main(String[] args) {
         LocalDateTime localDateTime = LocalDateTime.now();
         DateTimeFormatter thisTime = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        System.out.println("\n\n");
         String formattedDate = localDateTime.format(thisTime);
 
         System.out.println("\n\n");
